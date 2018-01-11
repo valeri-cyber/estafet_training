@@ -1,6 +1,5 @@
-package com.estafet.first.training;
+package com.estafet.training.maven;
 
-import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Logger;
 
 /**
@@ -13,7 +12,7 @@ public class App
 	
     public static void main( String[] args )
     {
-    	BasicConfigurator.configure();
+    	
         System.out.println( "Hello World!!" );
         
         LOGGER.info("Hello world again!");
